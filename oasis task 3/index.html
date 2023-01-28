@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width-device-width, initial scale=1.0" />
+        <meta name="theme-color" content="gold" />
+        <meta name="author" content="shrikant-mundhe" />
+        <title>Temperature Converter</title>
+
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div id="content-container">
+            <div class="title">
+                <h1>Temperature Converter
+                    <span class="temperature-icon"><i class="fa-solid fa-temperature-three-quarters"></i></span>
+                </h1>
+            </div><br>
+            <div id="calculations-container">
+                <div class="content-division">
+                    <div class="division-heading"></div>
+                    <div class="inputs-container">
+                        <input
+                        type="number"
+                        class="input-feild inputs"
+                        name="input"
+                        id="input-box"
+                        placeholder="Input in numbers"
+                        required
+                        />
+
+                        <div class="dropdown-container">
+                            <select class="dropdown inputs" id="input-dropdown">
+                                <option value="Celcius" selected>Celcius</option>
+                                <option value="Farenheit">Farenheit</option>
+                                <option value="Kelvin">Kelvin</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-division">
+                    <div class="division-heading"></div>
+                    <div class="inputs-container">
+                        <input
+                        type="text"
+                        class="input-feild inputs"
+                        name="result"
+                        id="result-box"
+                        placeholder="0"
+                        disabled
+                        />
+
+                        <div class="dropdown-container">
+                            <select class="dropdown inputs" id="result-dropdown">
+                                <option value="Farenheit">Farenheit</option>
+                                <option value="Celcius">Celcius</option>
+                                <option value="Kelvin">Kelvin</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="convert-btn" class="inputs" onclick="converter()">
+                Convert
+                </button>
+            </div>
+        </div>
+        <footer>
+            &#169; Designed by -
+            
+                Palak Bhawsar
+            </a>
+        </footer>
+
+        <script src="./script.js"></script>
+        <div class="container">
+            
+          
+        
+
+    </body>
+</html>
