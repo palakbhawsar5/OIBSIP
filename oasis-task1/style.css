@@ -1,0 +1,294 @@
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #1d160c;
+    background-size:100%;
+    padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+   
+}
+.header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 2px;
+    cursor: pointer;
+     border-radius: 50%;
+     
+}
+nav {
+    flex: 1;
+    padding-left: 500px;
+   
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style:circle;
+    margin: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(153, 94, 94);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+}
+#btn1 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #7e2842 3%, #48789b 100%);
+    border-radius: 30px;
+    border: 1px solid #5e97d1;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #528ecc;
+}
+#btn2 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #501919 2%, rgb(95, 78, 78) 100%);
+    border-radius: 30px;
+    border: 1px solid#cbcbcb;
+    cursor: pointer;
+    color: #dfe6ee;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #cbcbcb;
+}
+.btn:hover {
+    box-shadow: 3px 8px 22px rgba(94,28,68,.15);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+    padding-left: 100px;
+
+}
+.content .text h1{
+    color: rgb(179, 37, 37) ;
+     font-size: 3em;
+     line-height: 1.5em;
+     font-weight: 900;
+     text-transform: uppercase;
+}
+.content .text  span{
+    font-size: 2em;
+}
+.content .text p{
+    color: rgb(31, 21, 21);
+    margin-left: 0%;
+    line-height: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 800;
+}
+.content .text h2{
+    margin-left: 30%;
+    align-items:unset;
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 20ox;
+    padding: 8px 20px;
+    background: #fff;
+    color: rgb(95, 50, 50);
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration:solid;
+    text-transform: uppercase;
+    margin-left: 30%;
+}
+.content .img{
+    width: 300%;
+    display: flex;
+    padding-right: 30px;
+    justify-content:flex-end;
+
+}
+
+.content .imgBox  {
+ max-width: 200px;
+}
+
+.btn3 {
+    background: linear-gradient(to bottom, #300f0f 2%, rgb(131, 26, 26) 100%);
+    margin-top: 5px;
+    margin-left: 40px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: .1s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #d6b9b9;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+}
+.btn3:hover {
+    box-shadow: 3px 8px 22px rgba(94,28,68,.15);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.coffee img {
+    height: 300%;
+    width: 500px;
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-left: 10% ;
+    padding-left: 30px;
+    transition: all ease-in-out 0.8s;
+    
+}
+.coffee img:hover{
+    
+       transform: scale(1.1);
+        
+
+      
+
+}
+.sci{
+    position: absolute;
+    top: 90%;
+    right: 1160px;
+    transform: translateY(-60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.sci li{
+    list-style: none;
+   
+}
+.sci li a{
+    
+    filter: invert(1);
+    margin: 5px o;
+    transform: scale(0.8);
+    
+}
+
+
+
+.bc{
+    background-image: url("./coffee8.jpg");
+    background-size: cover;
+    height: 570px; 
+}
+.bc p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 02.4em;
+    font-weight: 600;
+    margin-left:5em;
+    align-items: center;
+   padding-top: 5.7em;
+   color: cornsilk;
+    
+}
+
+.offer{
+    height: 150px;
+    width: 160px;
+    
+    position: absolute;
+    top: 110px;
+    right:400px;
+    border-radius: 20px;
+    background-image: url(./30per.jpeg);
+    background-size:cover;
+    transition: all ease-in 0.8s;
+}
+.offer:hover{
+    transform: scale(1.1);
+    border-radius: 80px;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  
+  margin-bottom: 300px;
+}
+footer ul{
+    padding: 5%;
+    width: 90%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+
+footer {
+  padding-top: 30px;
+  background-color: #1e2b38;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted rgb(196, 23, 23);
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
